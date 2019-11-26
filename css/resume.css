@@ -188,3 +188,15 @@ a:hover, a:focus, a:active {
   opacity: 10;
   transition: opacity 1s ease;
 }
+
+#interests {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(66, 100, 96, 0.5)), url(/img/Image-1.jpg) no-repeat fixed;
+  background-size: cover;
+  color: white
+}
+
+.interests-title {
+  color: white
+}
+
+
