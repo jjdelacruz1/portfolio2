@@ -73,7 +73,7 @@ p.lead {
 }
 
 .social-icons a:hover {
-  background-color: #BD5D38;
+  background-color: #8D99AE;
 }
 
 .dev-icons {
@@ -81,7 +81,7 @@ p.lead {
 }
 
 .dev-icons .list-inline-item i:hover {
-  color: #BD5D38;
+  color: #8D99AE;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -161,17 +161,41 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #BD5D38 !important;
+  background-color: #8D99AE !important;
 }
 
 .text-primary {
-  color: #BD5D38 !important;
+  color: #8D99AE !important;
 }
 
 a {
-  color: #BD5D38;
+  color: #8D99AE;
 }
 
 a:hover, a:focus, a:active {
   color: #824027;
+}
+
+.card-hover .reveal {	
+  visibility: hidden;	
+  opacity: 0;	
+  height: 0;	
+  padding: 0;	
+}	
+
+.card-hover:hover .reveal {	
+  height: auto;	
+  visibility: visible;	
+  opacity: 10;	
+  transition: opacity 1s ease;	
+}	
+
+#interests {	
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(66, 100, 96, 0.5)), url(/img/Image-1.jpg) no-repeat fixed;	
+  background-size: cover;	
+  color: white	
+}	
+
+.interests-title {	
+  color: white	
 }
